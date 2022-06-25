@@ -2,9 +2,8 @@ import csv
 import os
 import shutil
 
-BASE_PATH = os.getcwd() + "/makeFolder"
-# OUTPUT_PATH = "./makeFolder/Output"
-OUTPUT_PATH = os.getcwd() + "/makeFolder/Output"
+BASE_PATH = os.getcwd()
+OUTPUT_PATH = os.getcwd() + "/Output"
 
 def main():
     #delete a output folder
